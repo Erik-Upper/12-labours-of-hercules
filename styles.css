@@ -27,7 +27,7 @@ header {
   top: 16px;
   text-align: center;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.25fr 1fr 1fr;
   align-items: center;
 }
 
@@ -45,6 +45,10 @@ img {
   background-image: url(links/background.png);
   background-size:cover;
   background-position: center;
+}
+
+.opaque {
+  background-color: rgba(251, 243, 169, 0.75);
 }
 
 main {
@@ -109,6 +113,11 @@ a:hover {
 .tight {
   margin: 0px;
   border-top: 0px;
+}
+
+.mighty {
+  font-size: 24px;
+  font-weight: 600;
 }
 
 /* GRID ========================================================= */
