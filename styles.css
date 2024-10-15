@@ -1,0 +1,122 @@
+/* COLLECTION */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000000;
+  color: black;
+  margin: 0;
+  padding: 0; 
+  line-height: 1.3;
+  font-size: 16px;
+  min-height: 100vh;
+  max-width: 100vw;
+  font-family: "Cinzel", serif;
+}
+
+header {
+  margin: 0 auto;
+  background-color: rgba(234,234,234,33%);
+  max-width: 300px;
+  border-radius: 36px;
+  backdrop-filter: blur(8px);
+  position: sticky;
+  top: 16px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.home {
+  background-image: url(links/background.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.collection {
+  background-image: url(links/background.png);
+  background-size:cover;
+  background-position: center;
+}
+
+main {
+  background-color: rgba(251, 243, 169, 0.361);
+  border-radius: 48px;
+  min-height: 100vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  padding-top: 32px;
+}
+
+footer {
+  text-align: center;
+  color: #757575;
+  padding: 16px;
+}
+
+/* TYPOGRAPHY ================================================= */
+
+h1 {
+padding-top: 15vh;
+padding-bottom: 16px;
+margin-bottom: 0%;
+font-size:4vw;
+line-height: 90%;
+}
+
+h2 {
+  margin-bottom: 0px;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color:mediumvioletred;
+}
+
+.button {
+  border: 2px solid black;
+  padding: 4px 20px;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+.tight {
+  margin: 0px;
+  border-top: 0px;
+}
+
+/* GRID ========================================================= */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px,300px) );
+  gap: 8px;
+  align-items: end;
+  justify-content: center;
+}
